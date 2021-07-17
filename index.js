@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.status(200).send('Your server is running successfully')
 })
 
-app.post('/user', userHandler)
+// app.post('/user', userHandler)
 
 
 
